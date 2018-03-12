@@ -1,8 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/bearyinnovative/MandrakeKit'
 platform :ios, '9.0'
 use_frameworks!
 
 target 'MandrakeKitDemo' do
-    pod 'MandrakeKit', :podspec => '../MandrakeKit.podspec'
-    pod 'LayoutKit', :git => 'https://github.com/rocry/LayoutKit', :branch => 'master'
+    pod 'MandrakeKit', '0.1.0.beta.1'
 end
