@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.requires_arc      = true
-    s.source            = { :http => 'http://7xnwdv.com1.z0.glb.clouddn.com/01/MandrakeKit.zip' }
+    s.source            = { :http => 'http://7xnwdv.com1.z0.glb.clouddn.com/03/MandrakeKit.zip' }
     s.swift_version     = '4.0'
     s.ios.deployment_target = '9.0'
 
