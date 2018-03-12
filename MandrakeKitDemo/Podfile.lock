@@ -1,0 +1,155 @@
+PODS:
+  - 1PasswordExtension (1.8.5)
+  - Action (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - AgoraRtcEngine_iOS (2.1.0)
+  - Alamofire (4.7.0)
+  - AlamofireNetworkActivityIndicator (2.2.0):
+    - Alamofire (~> 4.5)
+  - AVOSCloud (9.0.1)
+  - CocoaAsyncSocket (7.6.2)
+  - Differ (1.0.3)
+  - Eureka (4.1.0)
+  - ImageViewer (5.0.0)
+  - Kingfisher (4.6.3)
+  - KingfisherWebP (0.3.1):
+    - Kingfisher (~> 4.0)
+    - libwebp
+  - LayoutKit (6.0.0)
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
+  - ListDiff (0.1.0)
+  - MandrakeKit (0.1.0.beta.1):
+    - 1PasswordExtension
+    - Action
+    - AgoraRtcEngine_iOS
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AVOSCloud
+    - CocoaAsyncSocket
+    - Differ
+    - Eureka
+    - ImageViewer
+    - Kingfisher
+    - KingfisherWebP
+    - LayoutKit
+    - ListDiff
+    - MDRadialProgress
+    - NSLogger
+    - PKHUD
+    - R.swift
+    - Result
+    - RSKImageCropper
+    - RxCocoa
+    - RxSwift
+    - SDCAlertView
+    - Tactile
+    - TanImagePicker (= 0.2.1)
+    - Toucan
+    - TZImagePickerController
+    - XCGLogger
+    - Zip
+  - MDRadialProgress (1.3.2)
+  - NSLogger (1.9.0):
+    - NSLogger/ObjC (= 1.9.0)
+  - NSLogger/ObjC (1.9.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PKHUD (5.0.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - Result (3.2.4)
+  - RSKImageCropper (2.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SDCAlertView (8.0.2)
+  - Tactile (2.0)
+  - TanImagePicker (0.2.1)
+  - Toucan (1.0.0)
+  - TZImagePickerController (2.0.0.9)
+  - XCGLogger (6.0.2):
+    - XCGLogger/Core (= 6.0.2)
+  - XCGLogger/Core (6.0.2):
+    - ObjcExceptionBridging
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - LayoutKit (from `https://github.com/rocry/LayoutKit`, branch `master`)
+  - MandrakeKit (from `../MandrakeKit.podspec`)
+
+EXTERNAL SOURCES:
+  LayoutKit:
+    :branch: master
+    :git: https://github.com/rocry/LayoutKit
+  MandrakeKit:
+    :podspec: ../MandrakeKit.podspec
+
+CHECKOUT OPTIONS:
+  LayoutKit:
+    :commit: 966e8a9bc2520ad86e6edf47cdb4381f3417e1ed
+    :git: https://github.com/rocry/LayoutKit
+
+SPEC CHECKSUMS:
+  1PasswordExtension: 0e95bdea64ec8ff2f4f693be5467a09fac42a83d
+  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
+  AgoraRtcEngine_iOS: 6dc0ad19c37e8ef27393289948a6b9f2919cf34a
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AlamofireNetworkActivityIndicator: 81e1630e7cfed22a4e4e82a174c59e651dc4f8ca
+  AVOSCloud: c107102329a7efac60f36d46e7e9b0e4edc0e060
+  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
+  Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
+  Eureka: 5770ef95bbbbe52f8abbc0d9bea6ee8282c50209
+  ImageViewer: 3def6e39c6979ce3e9d001c78eec0d8b895f2f73
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
+  KingfisherWebP: 1d80d4f9541e37df02cf050a3c8a7902d3e1b940
+  LayoutKit: a8d0d296e21777688ca9f7e4f2906d42c38a010f
+  libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
+  ListDiff: 8a29c2ae3c8370cc989b6d6d50bb40d58c4e9ede
+  MandrakeKit: e7d24a926576ec8d71f842b40ab9dcf1113eeded
+  MDRadialProgress: 1068574b9b4b870f64b605b07f734385bde5104d
+  NSLogger: 9f8f5ab017eb34d1a138f4905dc7fb8e9a0e3186
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RSKImageCropper: d9a1acbc0600bf8decc8f0d21895872c99a9e4cf
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SDCAlertView: 289481e983c60abc5b4b5f4c7241fec9c7a853d5
+  Tactile: 22d5686693be17568351b95aa83ef37457cd40f4
+  TanImagePicker: 5462d6ca20e914780520c1a4837c2636d211383d
+  Toucan: 61867fb10948c02e9804280a95eb183e98eac97a
+  TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
+  XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: b471dd7a6cfd9df0dfc45f2683d6882fe2e0bf36
+
+COCOAPODS: 1.4.0
