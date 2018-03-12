@@ -12,10 +12,19 @@
 		3C25B2492056276800F59B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25B2472056276800F59B24 /* Main.storyboard */; };
 		3C25B24B2056276800F59B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C25B24A2056276800F59B24 /* Assets.xcassets */; };
 		3C25B24E2056276800F59B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25B24C2056276800F59B24 /* LaunchScreen.storyboard */; };
+		6B308FAD7E8803A917E9629F /* Pods_MandrakeKitDemo_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703603CA239CB6326EFE4AB4 /* Pods_MandrakeKitDemo_OC.framework */; };
 		6E1005EE4767118149FF422C /* Pods_MandrakeKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9E28485C5CA7637BDB0AD7 /* Pods_MandrakeKitDemo.framework */; };
+		B60D3D6E205675ED004C71BE /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D3D6D205675ED004C71BE /* Foo.swift */; };
+		B65B0921205671A0008ED8AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B0920205671A0008ED8AD /* AppDelegate.m */; };
+		B65B0924205671A0008ED8AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B0923205671A0008ED8AD /* ViewController.m */; };
+		B65B0927205671A0008ED8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B0925205671A0008ED8AD /* Main.storyboard */; };
+		B65B0929205671A0008ED8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65B0928205671A0008ED8AD /* Assets.xcassets */; };
+		B65B092C205671A0008ED8AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65B092A205671A0008ED8AD /* LaunchScreen.storyboard */; };
+		B65B092F205671A0008ED8AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B092E205671A0008ED8AD /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F960D534116E780EC54401 /* Pods-MandrakeKitDemo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandrakeKitDemo-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC.release.xcconfig"; sourceTree = "<group>"; };
 		3C25B2402056276800F59B24 /* MandrakeKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandrakeKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C25B2432056276800F59B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C25B2452056276800F59B24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +32,19 @@
 		3C25B24A2056276800F59B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C25B24D2056276800F59B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C25B24F2056276800F59B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703603CA239CB6326EFE4AB4 /* Pods_MandrakeKitDemo_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MandrakeKitDemo_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60D3D6D205675ED004C71BE /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		B65B091D205671A0008ED8AD /* MandrakeKitDemo-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MandrakeKitDemo-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65B091F205671A0008ED8AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B65B0920205671A0008ED8AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B65B0922205671A0008ED8AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B65B0923205671A0008ED8AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B65B0926205671A0008ED8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65B0928205671A0008ED8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65B092B205671A0008ED8AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65B092D205671A0008ED8AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65B092E205671A0008ED8AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0A2CD47CE6063FD96940741 /* Pods-MandrakeKitDemo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandrakeKitDemo-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B5F836C6B397E3C0C19467 /* Pods-MandrakeKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandrakeKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MandrakeKitDemo/Pods-MandrakeKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FA9E28485C5CA7637BDB0AD7 /* Pods_MandrakeKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MandrakeKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0F8EC6B7D020AFEEC1196D /* Pods-MandrakeKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandrakeKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MandrakeKitDemo/Pods-MandrakeKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -37,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B65B091A205671A0008ED8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B308FAD7E8803A917E9629F /* Pods_MandrakeKitDemo_OC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				3C25B2422056276800F59B24 /* MandrakeKitDemo */,
+				B65B091E205671A0008ED8AD /* MandrakeKitDemo-OC */,
 				3C25B2412056276800F59B24 /* Products */,
 				97B7E0A58C1DBCC98AB39BE7 /* Pods */,
 				8AF4B3AFB346816DA45C9172 /* Frameworks */,
@@ -54,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				3C25B2402056276800F59B24 /* MandrakeKitDemo.app */,
+				B65B091D205671A0008ED8AD /* MandrakeKitDemo-OC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				FA9E28485C5CA7637BDB0AD7 /* Pods_MandrakeKitDemo.framework */,
+				703603CA239CB6326EFE4AB4 /* Pods_MandrakeKitDemo_OC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,8 +117,27 @@
 			children = (
 				FC0F8EC6B7D020AFEEC1196D /* Pods-MandrakeKitDemo.debug.xcconfig */,
 				D0B5F836C6B397E3C0C19467 /* Pods-MandrakeKitDemo.release.xcconfig */,
+				D0A2CD47CE6063FD96940741 /* Pods-MandrakeKitDemo-OC.debug.xcconfig */,
+				19F960D534116E780EC54401 /* Pods-MandrakeKitDemo-OC.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B65B091E205671A0008ED8AD /* MandrakeKitDemo-OC */ = {
+			isa = PBXGroup;
+			children = (
+				B65B091F205671A0008ED8AD /* AppDelegate.h */,
+				B65B0920205671A0008ED8AD /* AppDelegate.m */,
+				B65B0922205671A0008ED8AD /* ViewController.h */,
+				B65B0923205671A0008ED8AD /* ViewController.m */,
+				B65B0925205671A0008ED8AD /* Main.storyboard */,
+				B65B0928205671A0008ED8AD /* Assets.xcassets */,
+				B65B092A205671A0008ED8AD /* LaunchScreen.storyboard */,
+				B65B092D205671A0008ED8AD /* Info.plist */,
+				B65B092E205671A0008ED8AD /* main.m */,
+				B60D3D6D205675ED004C71BE /* Foo.swift */,
+			);
+			path = "MandrakeKitDemo-OC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +163,26 @@
 			productReference = 3C25B2402056276800F59B24 /* MandrakeKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B65B091C205671A0008ED8AD /* MandrakeKitDemo-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65B0932205671A0008ED8AD /* Build configuration list for PBXNativeTarget "MandrakeKitDemo-OC" */;
+			buildPhases = (
+				7380212D5E0F8CB66A05FC83 /* [CP] Check Pods Manifest.lock */,
+				B65B0919205671A0008ED8AD /* Sources */,
+				B65B091A205671A0008ED8AD /* Frameworks */,
+				B65B091B205671A0008ED8AD /* Resources */,
+				566B4D53DAA5963AF966E6EF /* [CP] Embed Pods Frameworks */,
+				3B0907CD1363534ED2D7B656 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MandrakeKitDemo-OC";
+			productName = "MandrakeKitDemo-OC";
+			productReference = B65B091D205671A0008ED8AD /* MandrakeKitDemo-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +195,11 @@
 				TargetAttributes = {
 					3C25B23F2056276800F59B24 = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B65B091C205671A0008ED8AD = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				3C25B23F2056276800F59B24 /* MandrakeKitDemo */,
+				B65B091C205671A0008ED8AD /* MandrakeKitDemo-OC */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +231,16 @@
 				3C25B24E2056276800F59B24 /* LaunchScreen.storyboard in Resources */,
 				3C25B24B2056276800F59B24 /* Assets.xcassets in Resources */,
 				3C25B2492056276800F59B24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65B091B205671A0008ED8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65B092C205671A0008ED8AD /* LaunchScreen.storyboard in Resources */,
+				B65B0929205671A0008ED8AD /* Assets.xcassets in Resources */,
+				B65B0927205671A0008ED8AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +337,150 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandrakeKitDemo/Pods-MandrakeKitDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3B0907CD1363534ED2D7B656 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC-resources.sh",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/App.momd",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/Team.momd",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/Assets.car",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/EmoticonKeyboardView.nib",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/MessageChatPickerCustomViewController.nib",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/MessageChatPickerCustomViewController_old.nib",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/Messages.storyboardc",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/Base.lproj",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/en.lproj",
+				"${PODS_ROOT}/MandrakeKit/MandrakeKit.framework/zh-Hans.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/App.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Team.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EmoticonKeyboardView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MessageChatPickerCustomViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MessageChatPickerCustomViewController_old.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Messages.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Base.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		566B4D53DAA5963AF966E6EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Differ/Differ.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageViewer/ImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/ListDiff/ListDiff.framework",
+				"${BUILT_PRODUCTS_DIR}/MDRadialProgress/MDRadialProgress.framework",
+				"${PODS_ROOT}/MandrakeKit/CocoaLumberjack.framework",
+				"${PODS_ROOT}/MandrakeKit/Diff.framework",
+				"${PODS_ROOT}/MandrakeKit/LayoutKit.framework",
+				"${PODS_ROOT}/MandrakeKit/Reachability.framework",
+				"${PODS_ROOT}/MandrakeKit/SVGKit.framework",
+				"${PODS_ROOT}/MandrakeKit/SwiftTweaks.framework",
+				"${PODS_ROOT}/MandrakeKit/WSTagsField.framework",
+				"${PODS_ROOT}/MandrakeKit/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/NSLogger/NSLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCAlertView/SDCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Tactile/Tactile.framework",
+				"${BUILT_PRODUCTS_DIR}/TanImagePicker/TanImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Toucan/Toucan.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePasswordExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differ.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingfisherWebP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ListDiff.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDRadialProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Diff.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTweaks.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSTagsField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKImageCropper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tactile.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TanImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toucan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandrakeKitDemo-OC/Pods-MandrakeKitDemo-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7380212D5E0F8CB66A05FC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MandrakeKitDemo-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8E8E8EF2CB1BFF769F29ADB3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,6 +547,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B65B0919205671A0008ED8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60D3D6E205675ED004C71BE /* Foo.swift in Sources */,
+				B65B0924205671A0008ED8AD /* ViewController.m in Sources */,
+				B65B092F205671A0008ED8AD /* main.m in Sources */,
+				B65B0921205671A0008ED8AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -330,6 +573,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C25B24D2056276800F59B24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B65B0925205671A0008ED8AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65B0926205671A0008ED8AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B65B092A205671A0008ED8AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65B092B205671A0008ED8AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -452,6 +711,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WX25952EV;
 				INFOPLIST_FILE = MandrakeKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bearyinnovative.MandrakeKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,8 +728,48 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WX25952EV;
 				INFOPLIST_FILE = MandrakeKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bearyinnovative.MandrakeKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B65B0930205671A0008ED8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A2CD47CE6063FD96940741 /* Pods-MandrakeKitDemo-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = "MandrakeKitDemo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bearyinnovative.MandrakeKitDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65B0931205671A0008ED8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F960D534116E780EC54401 /* Pods-MandrakeKitDemo-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = "MandrakeKitDemo-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bearyinnovative.MandrakeKitDemo-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,6 +793,15 @@
 			buildConfigurations = (
 				3C25B2532056276800F59B24 /* Debug */,
 				3C25B2542056276800F59B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65B0932205671A0008ED8AD /* Build configuration list for PBXNativeTarget "MandrakeKitDemo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65B0930205671A0008ED8AD /* Debug */,
+				B65B0931205671A0008ED8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
