@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
-    [MDKConfig setupWithTokenType:@"bearer" token:@"745df9a5cbf0ad753ce784970a49c657" domain:@"wanketest"];
+    [MDKConfig setupWithTokenType:@"bearer" token:@"ac8bdbecd86b25ab77758b30910463c1" domain:@"wanketest"];
     [MDKConfig enableWaterMarkWith:@"beary-iOS"];
     UITabBarController *tab = [UITabBarController new];
     tab.viewControllers = @[[[UINavigationController alloc] initWithRootViewController:[ViewController new]],  [[UINavigationController alloc] initWithRootViewController:[[View alloc] init]]];
