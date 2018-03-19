@@ -3,14 +3,14 @@ PODS:
   - Action (3.5.0):
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
-  - AgoraRtcEngine_iOS (2.1.0)
+  - AgoraRtcEngine_iOS (2.1.1)
   - Alamofire (4.7.0)
   - AlamofireNetworkActivityIndicator (2.2.0):
     - Alamofire (~> 4.5)
   - AVOSCloud (9.0.1)
   - CocoaAsyncSocket (7.6.2)
   - Differ (1.0.3)
-  - Eureka (4.1.0)
+  - Eureka (4.0.1)
   - ImageViewer (5.0.0)
   - Kingfisher (4.6.3)
   - KingfisherWebP (0.3.1):
@@ -50,7 +50,7 @@ PODS:
     - AVOSCloud
     - CocoaAsyncSocket
     - Differ
-    - Eureka
+    - Eureka (= 4.0.1)
     - ImageViewer
     - Kingfisher
     - KingfisherWebP
@@ -103,19 +103,19 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   1PasswordExtension: 0e95bdea64ec8ff2f4f693be5467a09fac42a83d
   Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
-  AgoraRtcEngine_iOS: 6dc0ad19c37e8ef27393289948a6b9f2919cf34a
+  AgoraRtcEngine_iOS: 92bf85f262f43dec20809fe7d8a35e8f7f02d255
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   AlamofireNetworkActivityIndicator: 81e1630e7cfed22a4e4e82a174c59e651dc4f8ca
   AVOSCloud: c107102329a7efac60f36d46e7e9b0e4edc0e060
   CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
   Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
-  Eureka: 5770ef95bbbbe52f8abbc0d9bea6ee8282c50209
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
   ImageViewer: 3def6e39c6979ce3e9d001c78eec0d8b895f2f73
   Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
   KingfisherWebP: 1d80d4f9541e37df02cf050a3c8a7902d3e1b940
   libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
   ListDiff: 8a29c2ae3c8370cc989b6d6d50bb40d58c4e9ede
-  MandrakeKit: f6cb37c07034a5197ee8cc5224a5892621572c5c
+  MandrakeKit: f70172be63b5ea32a65fe13da80a03c203df1c39
   MDRadialProgress: 1068574b9b4b870f64b605b07f734385bde5104d
   NSLogger: 9f8f5ab017eb34d1a138f4905dc7fb8e9a0e3186
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001

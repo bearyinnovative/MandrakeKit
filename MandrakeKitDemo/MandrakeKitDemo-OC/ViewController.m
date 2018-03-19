@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MandrakeKit/MandrakeKit-Swift.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    //Group: =bwNQT
+    //p2p: =ccZKs3pUt
+    [MDKConfig showConversationWithCid:@"=bwNQT"];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
